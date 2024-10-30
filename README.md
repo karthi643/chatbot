@@ -1,19 +1,18 @@
-# Creating the README.txt content for the offline ChatGPT project.
-readme_content = """
+
 # Offline ChatGPT for Bank Transaction Analysis
 
-## Overview
+# Overview
 
 This project implements an offline ChatGPT model designed to analyze and answer questions regarding personal bank transaction records. The model utilizes a local SQLite database containing six months of transaction data, including expenses and income from various platforms. The goal is to provide insights into spending habits and income sources through natural language queries.
 
-## Features
+# Features
 
 - Transaction Analysis: Answer questions about specific spending categories (e.g., food, shopping) and platforms (e.g., Swiggy, Amazon).
 - Trend Analysis: Determine whether spending is increasing or decreasing over time.
 - Flexible Queries: Supports aggregation functions such as `min`, `max`, `avg`, `total`, `top`, and `least`.
 - Contextual Understanding: Utilizes TextBlob or similar tools to identify the context of queries as related to income or expenses.
 
-## Database Structure
+# Database Structure
 
 The SQLite database (`my_database.db`) contains a table named `my_transactions` with the following columns:
 
